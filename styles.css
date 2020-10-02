@@ -1,0 +1,91 @@
+body {
+  background: url('bg.png') no-repeat center center fixed;
+-webkit-background-size: cover;
+background-size: 100% 100%;
+
+text-align: center;
+
+
+}
+.box {
+  height: 27em;
+  width: 20em;
+
+  background: 	#FFFDD0;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.container {
+  min-height: 85vh;
+  display: flex;
+    justify-content: center;
+  align-items: center;
+
+
+}
+
+/* STRIP1 */
+.strip1{
+  background: #941c4c;
+  text-align: left;
+  padding: 0.3rem;
+}
+.logo {
+  height: 3rem;
+  width: 10rem;
+
+}
+/* STRIP1 END */
+
+/* STRIP2 */
+.strip2{
+
+  padding: 0.5rem 0.5rem 0.1rem;
+  /* padding-bottom: 0; */
+  color: #941c4c;
+  background: #fff;
+}
+
+/* STRIP2 END */
+
+/* STRIP3 */
+.strip3{
+text-align: center;
+
+
+}
+.strip3-inner{
+   width: auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  /* padding-bottom: 0; */
+  background: #FF4500;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  padding-top: 1.5rem;
+  border-radius:5px;
+border-style: double;
+  color: #fff;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.b1 {
+  background-color: #12ee04;
+  margin: 1rem;
+}
+.b2 {
+  background-color: #7c7c7b;
+  margin: 1rem;
+}
+/* STRIP3 END */
+h4{
+  color: #12ee04;
+}
+h6{
+  color: #fff;
+}
